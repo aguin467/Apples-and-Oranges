@@ -1,0 +1,21 @@
+IFELSEAPPLESANDORANGES()
+
+1.)	INTPUT applesHand = 20;
+2.)	INTPUT applesReq = 80; 
+3.)	INPUT orangeHand = 30;
+4.)	INPUT orangeReq = 70;                                                    
+5.)	INPUT " Number of apples in hand" in applesHand
+6.)	INPUT " Number of apples should be in stock" in applesReq
+7.)	INPUT " Number of oranges in hand" in orangeHand
+8.)	INPUT " Number of oranges should be in stock" in orangeReq
+9.)	IF applesHand < applesReq
+10.)	balapple = applesReq - applesHand
+11.)	OUTPUT " Number Of Apples To Be Ordered :", balapple
+12.)	ELSE, OUTPUT  “balapple Order”
+13.)	ENDIF
+
+14.)	IF orangeHand < orangeReq
+15.)	balorange = orangeReq - orangeHand
+16.)	OUTPUT " Number Of Oranges To Be Ordered :", balorange
+17.)	ELSE, OUTPUT “balorange Order”
+18.)	ENDIF
